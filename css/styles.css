@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 920px){
+    body{
+        background-color: #897676bf;
+    }
+   .body{
+    padding: 10px 20px 0;
+    height: 100vh;
+} 
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-bottom: 3em;
+}
+header img{
+    border-radius: 10px 10px 10px 10px;
+    height: 16rem;
+    width: 13rem;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 3px #605454bf;
+-webkit-box-shadow: 0px 0px 5px 3px #605454bf;
+-moz-box-shadow: 0px 0px 5px 3px #605454bf;
+}
+
+.links{
+    margin: 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cercile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.cercile img{
+    width: 1.7em;
+    height: 1.7em;
+}
+.inst{
+    width: 2.4em !important;
+    height: 2.4em !important;
+}
+.link{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 20rem;
+    margin-left: 20px;
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.linksColor1{
+    border: 2px purple solid;
+    
+}
+.linksColor2{
+    border: 2px green solid;
+    
+}
+.linksColor3{
+    border: 2px orangered solid;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.last{
+    margin: 30px 0 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last img{
+    width: 10em;
+    height: 10em;
+    margin: 10px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 13em;
+    border-radius: 7px 7px 0 0;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1.5px;
+}
+
+}
